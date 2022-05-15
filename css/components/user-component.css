@@ -28,6 +28,8 @@
   font-size: 22px;
 }
 .user-component__subtitle {
+  display: flex;
+  align-items: center;
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.4);
@@ -55,4 +57,18 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13px;
+  height: 13px;
+  font-weight: 600;
+  color: tomato;
+  border: 1.5px solid tomato;
+  border-radius: 50%;
+  margin-left: 5px;
+  font-size: 14px;
 }
