@@ -9,6 +9,7 @@
   align-items: center;
   top: 0;
   font-size: 32px;
+  background-color: #f9f9fa;
 }
 
 @media screen and (max-width: 645px) {
